@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/editDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:hint="Description" />
+
+    <EditText
+        android:id="@+id/editDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:hint="Date (YYYY-MM-DD)"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editCategoryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Category" />
+
+    <EditText
+        android:id="@+id/editAmountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="Amount"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/editSaveButton"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:text="Save Changes" />
+</LinearLayout>

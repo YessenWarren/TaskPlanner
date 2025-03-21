@@ -1,0 +1,11 @@
+<resources>
+    <color name="aqua_light">#00C8FF</color>
+    <color name="aqua_dark">#007BFF</color>
+    <color name="aqua_deep">#0044CC</color>
+    <color name="lime_light">#A5FF33</color>
+    <color name="lime_dark">#58D400</color>
+    <color name="lavender">#B8B8FF</color>
+    <color name="gold">#FFD700</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>
